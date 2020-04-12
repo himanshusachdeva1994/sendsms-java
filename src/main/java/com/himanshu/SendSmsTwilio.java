@@ -21,7 +21,7 @@ public class SendSmsTwilio {
     }
 
     private static void loadConfig() {
-        try (InputStream input = new FileInputStream("src/main/resources/config.properties")) {
+        try (InputStream input = new FileInputStream("src/main/resources/config/config-twilio.properties")) {
             Properties prop = new Properties();
 
             // load a properties file
